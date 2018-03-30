@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "jsonwebtoken": "^8.2.0"
+  }
+}

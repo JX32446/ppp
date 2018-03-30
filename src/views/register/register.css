@@ -1,0 +1,65 @@
+#register {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background: #eee;
+}
+
+#register .head {
+  height: 0.9rem;
+  line-height: .9rem;
+  border-top: 1px solid #ccc;
+  display: flex;
+}
+
+#register .head span {
+  flex: 1;
+  font-size: .25rem;
+}
+
+#register .head span:nth-child(1) {
+  flex: 1;
+  padding-left: .2rem;
+}
+
+#register .head span:nth-child(2) {
+  text-align: center;
+  flex: 6;
+  font-size: .3rem;
+}
+
+#register .head span:nth-child(3) {
+  color: #fc4141;
+  flex: 1;
+}
+
+#register .sec {
+  display: flex;
+  flex-direction: column;
+}
+
+#register .sec p {
+  width: 100%;
+  background: #fff;
+}
+
+#register .sec p input {
+  width: 90%;
+  margin-left: 5%;
+  height: 0.7rem;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+#register button {
+  width: 60%;
+  margin-left: 20%;
+  height: 0.8rem;
+  border: none;
+  border-radius: 20px;
+  background: #fc4141;
+  color: #fff;
+  font-size: .25rem;
+  margin-top: .3rem;
+}

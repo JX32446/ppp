@@ -1,0 +1,38 @@
+#search{
+    header{
+        padding: 10px;
+        input{
+            height: .6rem;
+            border: none;
+            border-radius: 5px;
+            background: #eee;
+            width: 70%;
+            padding-left: 15%;
+            font-size: .23rem;
+        }
+        button{
+            margin-left: 9px;
+            font-size: .24rem;
+            margin-top: .1rem;
+            background: #fff;
+            border: none;
+        }
+    }
+    p{
+        font-size: .25rem;
+        padding-left: 10px;
+        color: #666666;
+        margin-top: 10px;
+    }
+    li{
+        float: left;
+        padding-left: 10px;
+        padding: 5px 10px;
+        border: 1px solid #eee;
+        border-radius: 4px;
+        margin: 5px;
+    }
+    .del{
+        margin-left: 60%;
+    }
+}
